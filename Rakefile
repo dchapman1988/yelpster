@@ -15,5 +15,5 @@ Extension of Korman's Ruby wrapper to interface with Yelp's REST API described i
 http://www.yelp.com/developers/getting_started
 EDOC
   p.ignore_pattern = ["tmp/*", "script/*"]
-  p.runtime_dependencies = [ 'json >=1.1.1' ]
+  p.runtime_dependencies = [ 'json >=1.1.1', 'oauth ~> 1.4.5' ]
 end
